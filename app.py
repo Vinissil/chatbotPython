@@ -34,17 +34,7 @@ def start():
     while True:
         # Oferecer o menu de opções
         resposta = input( 
-            f'Qual o seu pedido?{os.
-            linesep}[1] - Italiano - Pão, Australiano, burguer 120g, queijo cheddar, picles,maionese e Ketchup.{os.
-            linesep}[2] - Insalata - Pão brioche, burguer 120g, queijo cheddar, tomate, cebola roxa, alface americana e maionese.{os.
-            linesep}[3] - Don Corleone - Pão brioche, burguer 120g, queijo cheddar, cebola e picle.{os.
-            linesep}[4] - Al Pacino - Pão brioche, burguer 120g, queijo cheddar, bacon, picle, maionese.{os.
-            linesep}[5] - O Poderoso Chefão - Pão australiano, burguer 120g, queijo cheddar, cebola roxa, barbecue e picles.{os.
-            linesep}[6] - Piazza - Pão australiano, burguer 120g, queijo cheddar, bacon, tomate, rúcula.{os.
-            linesep}[7] - Cosa Nostra - Pão brioche, burguer 120g, queijo gorgonzola, bacon e rúcula.{os.
-            linesep}[8] - Acompanhamentos - Porção individual: Batata frita.{os.
-            linesep}[9] - Acompanhamentos - Porção individual: Nuggets.{os.
-            linesep}[10] - Combo - Transforme seu lanche num combo, escolha o seu refrigerante e acompanhamento.{os.linesep}')
+        f'Qual o seu pedido?{os.linesep}[1] - Italiano - Pão, Australiano, burguer 120g, queijo cheddar, picles,maionese e Ketchup.{os.linesep}[2] - Insalata - Pão brioche, burguer 120g, queijo cheddar, tomate, cebola roxa, alface americana e maionese.{os.linesep}[3] - Don Corleone - Pão brioche, burguer 120g, queijo cheddar, cebola e picle.{os.linesep}[4] - Al Pacino - Pão brioche, burguer 120g, queijo cheddar, bacon, picle, maionese.{os.linesep}[5] - O Poderoso Chefão - Pão australiano, burguer 120g, queijo cheddar, cebola roxa, barbecue e picles.{os.linesep}[6] - Piazza - Pão australiano, burguer 120g, queijo cheddar, bacon, tomate, rúcula.{os.linesep}[7] - Cosa Nostra - Pão brioche, burguer 120g, queijo gorgonzola, bacon e rúcula.{os.linesep}[8] - Acompanhamentos - Porção individual: Batata frita.{os.linesep}[9] - Acompanhamentos - Porção individual: Nuggets.{os.linesep}[10] - Combo - Transforme seu lanche num combo, escolha o seu refrigerante e acompanhamento.{os.linesep}')
         # Processar a resposta enviada
         processar_resposta(resposta, nome)
 
